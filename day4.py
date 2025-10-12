@@ -1,0 +1,7 @@
+num1 = int(input("Enter your number"))
+num2 = int(input("Enter your number"))
+print("sum : " , num1+num2)
+print("Difference : " , num1 - num2)
+print("Product: " , num1 * num2)
+print("Division: " , num1/num2)
+print("Is first number greater?", num1 > num2)
