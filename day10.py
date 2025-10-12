@@ -1,0 +1,7 @@
+file = open("movie.txt" , "w")
+file.write("It stars Kalyani Priyadarshan as Chandra, a mysterious woman who arrives in Bangalore, India and gets entangled with a gang involved in organ trafficking.")
+file.close()
+file = open("movie.txt" , "r")
+content = file.read()
+print(content)
+file.close()
